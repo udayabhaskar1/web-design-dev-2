@@ -1,0 +1,1220 @@
+@charset "utf-8";
+/* CSS Document */
+/* Start of General CSS*/
+html{
+	height:100%;
+	margin:0;
+}
+
+body{
+	width:100%;
+	height:100%;
+	margin:0;
+	margin-bottom:50px;
+	background-image: url("../images/w1.gif");
+	background-size:cover;
+	background-repeat:repeat-y;
+}
+
+.content{
+	min-height:100%;
+}
+
+.content-inside{
+	padding:20px;
+	padding-bottom:50px;
+}
+
+#searchEngine {				/*selector for html div containing the custom search engine*/
+	float:right;
+	width:15%;
+	padding:0;
+}
+
+.cse .gsc-control-cse,
+.gsc-control-cse {			/*Overwriting styling for google's custom search engine*/
+	padding: 0 !important;
+}
+
+#logo {
+	margin-left:15%;
+}
+
+#faqServices {
+	margin-left:0;
+}
+
+p{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0;
+	font-family: 'Arvo', serif;
+}
+
+p {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	font-family: 'Arvo', serif;
+	color: #2B071E;
+	font-style: italic;
+}
+
+a {
+	cursor:pointer;
+	text-decoration:none;
+}
+
+h1{
+	text-align:center;
+}
+
+h2{
+	font-size: 25px;
+	color: #091A2D;
+	font-family: 'Baloo Tamma', cursive;
+}
+
+.wrapper{
+	min-height:100%;
+	height: auto !important;
+	margin: 0 auto -50px;
+}
+/*End of general CSS*/
+/*Start of Footer CSS*/
+#Footer{
+	width:100%;
+	height:40px;
+	position:relative;
+	bottom:0;
+	background-color:#55286f;
+	color:#ffffff;
+	left:0;
+	right:0;
+	margin-top:5%;
+	padding-top:1em;
+	padding-bottom:1em;
+	overflow:hidden;
+}
+
+.footermiddle{text-align:left;
+	margin-left:14%;
+	position:relative;
+	float:left;
+	bottom:4px;
+	coloer:#9E1946;}
+
+.footerright{text-align:left;
+	margin-left:40%;
+	position:relative;
+	float:right;
+	right:12%;
+	top:-5px;
+}
+
+.imagelogo{				 /* CSS for footer logo*/
+max-width:30%;
+float:left;
+left:14%;
+position:relative;
+}
+
+#table2{		/*Table for footer*/
+	text-align:center;
+	width:22em;
+	position:relative;
+	top:8px;
+	font-family: 'Arvo', serif;
+	font-size:20px;
+	FONT-WEIGHT:bold;
+}
+
+#table2 td{
+	text-align:center;
+	width:25px;
+}
+
+/*End of CSS for Footer*/
+/* CSS for table 1, the NAV bar */
+table a, a.table1{
+text-decoration:none;
+color:#ffffff;
+}
+
+table a:hover, a:hover.table1 {
+	color:#C63D0F;
+}
+
+table.table1{
+max-width: 100%;
+margin:auto;
+height:3em;
+font-size:24px;
+font-family: 'Baloo Tamma', cursive;
+margin-bottom:40px;
+}
+
+table.table1 tr{
+width: 66.5%;
+}
+
+table.table1 td{
+border:2px solid black;
+text-align:center;
+background-color:#55286f;
+color:#ffffff;
+width:10%;
+height:100%;
+margin:0;
+border-radius:10px;
+}
+/*End of CSS for NAV Bar*/
+/*Start of CSS for index.html*/
+.nav {
+	list-style-type: none;
+	top: 8px;
+}
+
+.nav li {
+	margin: 0;
+	padding: 0;
+}
+
+.nav a {
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 1;
+	font-weight: 800;
+	color: #afb2b6;
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 6px 15px 2px;
+	border-radius: 10px;
+	margin: 0 5px;
+	text-shadow: 0 1px 4px rgba(0,0,0,.8);
+}
+
+.nav .active a, .nav a:hover { color: #fff }
+
+.nav a.active {
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(255,255,255,.1),inset 0 -1px 4px rgba(0,0,0,1);
+	background-color: #111;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	*zoom: 1;
+	width:60%;
+	position:relative;
+}
+
+#cafeSlides {
+	margin-right: auto;
+	margin-left: auto;
+	*zoom: 1;
+	width:80%;
+	position:relative;
+}
+.container:before,
+.container:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.container:after {
+	clear: both;
+}
+.container-fluid {
+	padding-right: 20px;
+	padding-left: 20px;
+	*zoom: 1;
+}
+.container-fluid:before,
+.container-fluid:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.container-fluid:after {
+	clear: both;
+}
+
+#slides {
+	display: none;
+}
+
+#slides .slidesjs-navigation {
+	margin-top:5px;
+}
+
+a.slidesjs-next,
+a.slidesjs-previous,
+a.slidesjs-play,
+a.slidesjs-stop {
+	background-image: url("../images/btns-next-prev.png");
+	background-repeat: no-repeat;
+	display:block;
+	width:12px;
+	height:18px;
+	overflow: hidden;
+	text-indent: -9999px;
+	float: left;
+	margin-right:5px;
+}
+
+a.slidesjs-next {
+	margin-right:10px;
+	background-position: -12px 0;
+}
+
+a:hover.slidesjs-next {
+	background-position: -12px -18px;
+}
+
+a.slidesjs-previous {
+	background-position: 0 0;
+}
+
+a:hover.slidesjs-previous {
+	background-position: 0 -18px;
+}
+
+a.slidesjs-play {
+	width:15px;
+	background-position: -25px 0;
+}
+
+a:hover.slidesjs-play {
+	background-position: -25px -18px;
+}
+
+a.slidesjs-stop {
+	width:18px;
+	background-position: -41px 0;
+}
+
+a:hover.slidesjs-stop {
+	background-position: -41px -18px;
+}
+
+.slidesjs-pagination {
+	margin: 7px 0 0;
+	float: right;
+	list-style: none;
+}
+
+.slidesjs-pagination li {
+	float: left;
+	margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+	display: block;
+	width: 13px;
+	height: 0;
+	padding-top: 13px;
+	background-image: url("../images/pagination.png");
+	background-position: 0 0;
+	float: left;
+	overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+	background-position: 0 -13px;
+}
+
+.slidesjs-pagination li a:hover {
+	background-position: 0 -26px;
+}
+
+#slides a:link,
+#slides a:visited {
+	color: #333;
+}
+
+#slides a:hover,
+#slides a:active {
+	color: #9e2020;
+}
+
+.navbar {
+	overflow: hidden;
+}
+/*End of CSS for index.html*/
+/*Start of CSS for about.html*/
+.aboutimage1{
+	padding: 1em;
+	float:left;
+	position:relative;
+	width:15em;
+	margin-top:4%;
+	margin-bottom:3em;
+	margin-left:18.5%;
+	margin-right:1em;
+}
+
+.aboutimage2{
+	padding: 1em;
+	float:right;
+	position:relative;
+	width:15em;
+	margin-top:4%;
+	margin-bottom:3em;
+	margin-right:18.5%;
+	margin-left:1em;
+}
+
+.aboutimage3{
+	padding:1em;
+	clear:left;
+	float:left;
+	position:relative;
+	width:15em;
+	margin-left:18.5%;
+	margin-right:1em;
+}
+
+.aboutimage4{
+	padding:1em;
+	clear:right;
+	float:right;
+	position:relative;
+	width:15em;
+	margin-right:18.5%;
+	margin-left:1em;
+}
+
+.pAbout{		/* Paragraph for About.html*/
+	width:30%;
+	padding-left:1em;
+	padding-right:1em;
+	padding-top:4em;
+	height:40em;
+	background:#FFFFFF;
+	margin-top:4%;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:20px;
+	background-color:#ffe6f0;
+	line-height:200%;
+}
+/*End of CSS for about.html*/
+/* Start of products.html css*/
+.team {
+	padding-left:10%;
+	padding-right:10%;
+	color:#3A85D4;
+}
+
+.productContainer h2 {
+	padding-left:15%;
+}
+
+.productContainer h3 {
+	padding-left:17%;
+	font-family: 'Indie Flower', cursive;
+	font-size:20px;
+	font-style:italic;
+}
+
+.box p span{
+	float:left;
+	position:relative;
+	margin-left:0;
+	color:#EF7777;
+}
+
+.box img {
+	height:50%;
+	width:50%;
+}
+
+.product_order{
+	text-decoration: none;
+	float:right;
+	position:relative;
+}
+
+.box p {
+	font-family: 'Indie Flower', cursive;
+	font-size:25px;
+	font-weight:bold;
+}
+
+.box{
+	position:fixed;
+	top:-1000px;
+	left:30%;
+	right:30%;
+	background-color:#fff;
+	color:#3A85D4;
+	padding:20px;
+	border:2px solid #ccc;
+	-moz-border-radius: 20px;
+	-webkit-border-radius:20px;
+	-khtml-border-radius:20px;
+	-moz-box-shadow: 0 1px 5px #333;
+	-webkit-box-shadow: 0 1px 5px #333;
+	z-index:101;
+	font-family: 'Arvo', serif;
+}
+
+a.boxclose{
+	float:right;
+	width:26px;
+	height:26px;
+	background:transparent url(../images/close.png) no-repeat;
+	background-size:cover;
+	margin-top:-30px;
+	margin-right:-30px;
+	cursor:pointer;
+}
+
+.box h4{
+	border-bottom: 1px dashed #7F7F7F;
+	margin:0px -20px 0px -20px;
+	padding:15px;
+	background-color:#FFEFEF;
+	color:#EF7777;
+	font-size:30px;
+	-moz-border-radius:20px 20px 0px 0px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-top-right-radius: 20px;
+	-khtml-border-top-left-radius: 20px;
+	-khtml-border-top-right-radius: 20px;
+}
+
+.ch-grid {
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.ch-grid:after,
+.ch-item:before {
+	content: '';
+    display: table;
+}
+
+.ch-grid:after {
+	clear: both;
+}
+
+.ch-grid li {
+	width: 220px;
+	height: 220px;
+	display: inline-block;
+	margin: 20px;
+}
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	-o-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	position: relative;
+	cursor: default;
+	-webkit-perspective: 900px;
+	-moz-perspective: 900px;
+	-o-perspective: 900px;
+	-ms-perspective: 900px;
+	perspective: 900px;
+}
+.ch-info{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+.ch-info > div {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-position: center center;
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+	-webkit-transform-origin: 50% 0%;
+	-moz-transform-origin: 50% 0%;
+	-o-transform-origin: 50% 0%;
+	-ms-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+}
+
+.ch-info .ch-info-front {
+	box-shadow: inset 0 0 0 8px rgba(0,0,0,1);
+	background-color:#FFFFFF;
+}
+
+.ch-info .ch-info-back {
+	-webkit-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	-moz-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	-o-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	-ms-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	background:#6b0f24;
+	opacity: 0;
+}
+.ch-img-1 { 
+	  background:url(../images/Beach/b3/b3-2.png)no-repeat;
+	  background-size:contain;
+	z-index: 12;
+}
+
+.ch-img-2 { 
+	  background: url(../images/Beach/b5/b5-2.png)no-repeat;
+	  background-size:10em;
+	z-index: 11;
+}
+
+.ch-img-3 { 
+	  background: url(../images/Beach/b1/b1-2.png);
+	  background-size:contain;
+	z-index: 10;
+}
+.ch-img-4 { 
+	  background: url(../images/Party/p2/p2-2.jpg)no-repeat;
+	  background-size:contain;
+	z-index: 10;
+}
+.ch-img-5 { 
+	  background: url(../images/Party/p3/p3-2.jpg)no-repeat;
+	  background-size:contain;
+	z-index: 10;
+}.ch-img-6 { 
+	  background: url(../images/Party/p4/p4-2.jpg)no-repeat;
+	  background-size:contain;
+	z-index: 10;
+}.ch-img-7 { 
+	  background: url(../images/Casual/c1/c1-1.jpg)no-repeat;
+	  background-size:contain;
+	z-index: 10;
+}.ch-img-8 { 
+	  background: url(../images/Casual/c2/c2-1.jpg)no-repeat;
+	  background-size:contain;
+	z-index: 10;
+}
+.ch-img-9 { 
+	  background:url(../images/Casual/c7/c7-2.jpg);
+	  background-size:contain;
+	z-index: 10;
+}
+.ch-info h3 {
+	color: #fff;
+    font-size: 1.8em;
+    margin: 0 15px;
+    padding: 61px 0 0 0;
+    height: 110px;
+    text-shadow: 0 0 1px #fff, 
+ 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+	color: #fff;
+	padding: 10px 5px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.ch-info p a {
+	display: block;
+	color: #fff;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+}
+
+.ch-info p a:hover {
+    color: #BD133A;
+}
+
+.ch-item:hover .ch-info-front {
+	-webkit-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	-moz-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	-o-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	-ms-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	opacity: 0;
+}
+
+.ch-item:hover .ch-info-back {
+	-webkit-transform: rotate3d(1,0,0,0deg);
+	-moz-transform: rotate3d(1,0,0,0deg);
+	-o-transform: rotate3d(1,0,0,0deg);
+	-ms-transform: rotate3d(1,0,0,0deg);
+	transform: rotate3d(1,0,0,0deg);
+	opacity: 1;
+}
+
+.animated {
+	visibility: visible; 
+	animation-duration: 1000ms; 
+	animation-delay: 500ms; 
+	animation-name: fadeInLeft;
+}
+
+.overlay{
+    background:url(../images/overlay.png) repeat top left;
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index:100;
+	opacity:0.6;
+}
+/* End of CSS for product.html*/
+/* Start of CSS for faq.html*/
+.faq1{		/*H1 of the faq.html*/
+	text-align: center;
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+.faq1 h1 {
+	font-size: 50px;
+	font-family: 'Indie Flower', cursive;
+	color: #CC60D3;
+	font-weight: bold;
+}
+.faq2{		/*Structure of the body of the faq.html page*/
+	text-align: left;
+	width:60%;
+	margin-left:18%;
+	margin-right:70%;
+	margin-top:3%;
+	margin-bottom:3%;
+}
+
+.faq2 h2{
+	font-size:58px;
+	margin-left:10%;
+	margin-right:auto;
+    color:#573280;
+}
+
+.pFAQ{		/*Structure for the collapsible content*/
+	font-size:22px;
+	padding:1%;
+	margin-left:10%;
+	margin-right:auto;
+    margin-top:-5%;
+	color:#EF3BAB;
+}
+
+.pFAQ h3{
+	color:#573280;
+    background-color:#dd9ac2;
+    padding:1%;
+    border-radius:20px;
+}
+
+.pFAQ h3:hover{
+	color:#574ae2;
+	font-weight: bold;
+	cursor: pointer;
+}
+/*End of CSS for faq.html*/
+/*Start of CSS for services.html*/
+.pSvc{		/*Structure for the collapsible content*/
+	margin-left:auto;
+	margin-right:auto;
+	padding:0;
+	margin-bottom:0;
+	color:#EF3BAB;
+}
+
+.pSvc h3{
+    color:#573280;
+    background-color:#dd9ac2;
+    border-radius:20px;
+    padding:1%;
+}
+
+.pSvc h3:hover{
+	color:#BD133A;
+	font-weight: bold;
+	cursor:pointer;
+}
+
+.serviceh1{		/*H1 for service.html*/
+	margin-right:auto;
+	margin-left:auto;
+	width: 40%;
+	margin-top: 3%;
+	font-family: 'Arvo', serif;
+	color: #CC60D3;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.service2{		/*Structure for the main content body*/
+	text-align: left;
+	width:50%;
+	margin-left:25%;
+	margin-right:30%;
+	margin-top:3%;
+	margin-bottom:5%;
+	line-height:40px;
+}
+
+.service2 h2 {
+	font-size: 42px;
+	font-weight: bold;
+	font-family: 'Baloo Tamma', cursive;
+	color: #573280;
+}
+
+.service2 h3 {
+	color: #091A2D;
+	font-size: 25px;
+	font-family: 'Baloo Tamma', cursive;
+}
+
+.service2 p {
+	font-family: 'Arvo', serif;
+}
+/*End of CSS for services.html*/
+/*Start of CSS for order.html*/
+.orderform{		/*Structure for order form*/
+	width:58%;
+	padding-left:1em;
+	padding-right:1em;
+	padding-top:2%;
+	height:80%;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:20px;
+	background-color:#ffe6f0;
+	line-height:200%;
+	font-size: 30px;
+}
+
+.orderform h2 {
+	position: relative;
+	margin-left:35%;
+	padding-top:0;
+	margin-top:0;
+	font-size: 60px;
+	font-weight: bold;
+	font-family: 'Indie Flower', cursive;
+}
+
+#ordertable{
+	margin-left:auto;
+	margin-right:auto;
+	font-family:'Constantia';
+}
+
+#orderProducts {
+	position:relative;
+	width:140%;
+	border-collapse: collapse;
+}
+
+.result {
+	margin-left: 15%;
+}
+
+#totalPrice {
+	position:relative;
+	margin-left:35%;
+ }
+
+#paymentInfo{
+	position:relative;
+	width:100%;
+}
+
+.productPrice{
+	position:relative;
+	width:20%;
+}
+
+.productPrice label {
+	position: relative;
+	margin-left:20%;
+}
+
+#orderRequired {
+	font-size: 18px;
+}
+
+input#submit, input#reset {
+	height: 60px;
+	width: 180px;
+}
+/*End of CSS for order.html*/
+/*Start of CSS for cafe.html*/
+#cafeheading {
+	font-size:92px;
+	font-weight:bold;
+	font-family: 'Indie Flower', cursive;
+}
+	
+.pCafe1{		/*Different paragraph numbers for various sections of the page*/
+	text-align: center;
+	width:40%;
+	margin-left:30%;
+	margin-right:30%;
+}
+
+.pCafe1 p {
+	font-size:32px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.pCafe2{
+	clear:left;
+	text-align:center;
+	width:40%;
+	margin-left:30%;
+	margin-right:30%;
+}
+
+.pCafe2 p {
+	font-size:32px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.pCafe3{
+	clear:right;
+	padding-top:5%;
+	margin-bottom:10%;
+	text-align: center;
+	width:40%;
+	margin-left:30%;
+	margin-left:30%;
+}
+
+.pCafe3 {
+	font-size:32px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.cafediv{
+	text-align:center;
+	width:30%;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.cafediv h2{
+	font-size: 42px;
+}
+
+.cafeimg1{
+	padding: 1em;
+	float:left;
+	width:100%;
+	margin-top:3%;
+	margin-bottom:5em;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.cafeimg2{
+	padding-right: 2em;
+	float:left;
+	width:20%;
+	margin-top:2%;
+	margin-bottom:5em;
+	margin-left:25%;
+	margin-right:auto;
+}
+
+.cafeimg3{
+	padding-left: 2em;
+	float:right;
+	width:25%;
+	margin-top:2%;
+	margin-bottom:5em;
+	margin-left:auto;
+	margin-right:25%;
+}
+
+.cafeimg4{
+	padding-left: 2em;
+	float:left;
+	width:25%;
+	margin-top:3%;
+	margin-bottom:3em;
+	margin-left:23%;
+	margin-right:auto;
+}
+
+.cafeimg5{
+	padding-left: 2em;
+	float:right;
+	width:25%;
+	margin-top:3%;
+	margin-bottom:3em;
+	margin-left:auto;
+	margin-right:23%;
+}
+/*End of CSS for cafe.html*/
+/*Start of CSS for contactus.html*/
+#contactmain{
+	float:left;
+	width: 25%;
+	margin-left:22%;
+	margin-right:auto;
+	margin-top:2%;
+	font-family: 'Indie Flower', cursive;
+}
+
+#contactmain span{
+	font-family:'Indie Flower', cursive;
+	font-style: italic;
+	color: #455AD7;
+}
+
+#contactmain h1{
+	font-size: 36px;
+}
+
+.pContactUs{		/* Paragraph for contactus.html*/
+	width:40%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:4%;
+	line-height:3em;
+	font-family: 'Arvo', serif;
+	font-size: 20px;
+	float:left;
+}
+
+.pContactUs2{
+	text-align: center;
+	margin-bottom:5%;
+	font-size: 30px;
+	color: #091A2D;
+	font-family: 'Baloo Tamma', cursive;
+}
+
+.pContactMap{
+	float:right;
+	width:25%;
+	margin-right:23%;
+	margin-top:3%;
+}
+
+.gmap2{
+	position:relative;
+	display: inline-block;
+	margin-left:auto;
+	margin-right:auto;
+	width:30em;
+	height:25em;
+	frameborder:0;
+	border:0;
+}
+
+.feedbackform {
+	width:45%;
+	margin-top:-10%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:1%;
+	border-radius:20px;
+	background-color:#ffe6f0;
+	line-height:200%;
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	clear:both;
+}
+
+.feedbackform h2 {
+	text-align: center;
+	padding-top:1%;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Indie Flower', cursive;
+	color: #E567B2;
+}
+
+#feedbacktable {
+	position:relative;
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:1%;
+}
+
+#feedbacktable span {
+	color:#455AD7
+}
+
+#feedbackButton{
+	align-content: center;
+	margin-right:auto;
+	margin-left:auto;
+}
+/*End of CSS for contactus.html*/
+/*Start of CSS for events.html*/
+#eventimg{
+	margin:1px auto;
+	display:block;
+}
+.pEventMap{
+	clear:both;
+	text-align:center;
+	width:55%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:2%;
+	line-height:30px;
+	font-size:26px;
+}
+
+.gmap1{			/*Structure for the google map plugin on the events page*/
+	position:relative;
+	display: inline-block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:2em;
+	padding-bottom:1em;
+	width:35em;
+	height:20em;
+	frameborder:0;
+	border:0;
+}
+
+.pEvents1{
+	clear:left;
+	text-align: center;
+	width:40%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:-5%;
+	position:relative;
+}
+
+.pEvents1 p {
+	font-size: 40px;
+	font-weight: bolder;
+	font-family: "Indie Flower", cursive;
+}
+
+.pEvents2{
+	clear: left;
+	text-align: center;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: "Indie Flower", cursive;
+}
+.eventimg1{		/*Event Image*/
+	float:left;
+	width:60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom:7%;
+	position:relative;
+	display:block;
+}
+
+.eventimg2{
+	clear:right;
+	float:right;
+	width:30%;
+	margin-right:20%;
+	margin-top:8%;
+	margin-bottom:2%;
+	position:relative;
+
+}
+
+.eventimg3{
+	clear:right;
+	float:right;
+	width:30%;
+	margin-right:20%;
+	margin-bottom:5%;
+	position:relative;
+}
+
+.eventimg4{
+	clear:left;
+	float:left;
+	width:30%;
+	margin-left:20%;
+	margin-bottom:2%;
+	position:relative;
+}
+
+.eventimg5{
+	clear:left;
+	float:left;
+	width:30%;
+	margin-left:20%;
+	margin-bottom:5%;
+	position:relative;
+}
+
+.pEvents3{
+	clear:left;
+	float:left;
+	width:20%;
+	margin-left:25%;
+	margin-top:9%;
+	margin-bottom:5%;
+	position:relative;
+	font-size: 28px;
+}
+
+.pEvent3 h2{
+	font-size: 40px;
+}
+
+.pEvents4{
+	clear:right;
+	float:right;
+	width:20%;
+	margin-top:5%;
+	margin-right:25%;
+	position:relative;
+	font-size:28px;
+}
+
+.pEvent4 h2{
+	font-size: 40px;
+}
+/*End of CSS for events.html*/
+
+
+
+
+
+
