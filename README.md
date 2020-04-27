@@ -2,4 +2,4 @@
 HTML, CSS, JAVASCRIPT
 
 Kids Fashion Outlet Website
-Use of Html, css and Javascript for building the application
+Use of html, css and JavaScript for building the application
